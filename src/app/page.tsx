@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState } from "react"
 
 export default function Home() {
 
@@ -23,7 +23,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center">
-      <h1 className="font-bold text-4xl m-8">Todo App</h1>
+      <h1 className="font-bold italic tracking-wide text-slate-500 text-4xl m-8">Todo App</h1>
       <div>
         <input
           className="bg-slate-200 p-3 m-3 rounded-md"
